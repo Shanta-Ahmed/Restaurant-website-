@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>food Cafe</title>
+    <!-- swiper cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" defer>
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    /> -->
+    <!-- css file  -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- fnt awesome  link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+</head>
+
+<body>
+    <!-- header section starts  -->
+    <header>
+        <a href="#" class="logo"><i class="fas fa-utensils"></i>food Cafe</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">home</a>
+            <a href="#dishes">dishes </a>
+            <a href="#menu">menu</a>
+            <a href="#review">review</a>
+            <a href="#order">order</a>
+            <a href="#about">about</a>
+
+
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-shopping-cart" id="cart-icon"></a>
+            <a href="#" class="fas fa-heart" id="heart-icon"></a>
+        </div>
+    </header>
+
+    <!-- header end -->
+    <!-- search form start -->
+    <form action="" id="search-form">
+        <input type="search" placeholder="search here" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+    <!-- search form ends -->
+
+    <!-- home section start -->
+    <section class="home" id="home">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper wrapper">
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Our  special dishes</span>
+                        <h3>spicy chicken</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                    <div class="img">
+                        <img src="image/home-img-2.png" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Our  special dishes</span>
+                        <h3>spicy noodles</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                    <div class="img">
+                        <img src="image/home-img-1.png" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Our  special dishes</span>
+                        <h3>pizza</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                    <div class="img">
+                        <img src="image/home-img-3.png" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Our  special dishes</span>
+                        <h3>spicy noodles</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                    <div class="img">
+                        <img src="image/home-img-1.png" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Our  special dishes</span>
+                        <h3>pizza</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                    <div class="img">
+                        <img src="image/home-img-3.png" alt="">
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+    </section>
+    <!-- home section end -->
+    <!-- dishes section start -->
+    <section class="dishes" id="dishes">
+        <h3 class="sub-heading">Our Dishes </h3>
+        <h1 class="heading">Popular Dishes</h1>
+        <div class="box-container">
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class=" fas fa-eye"></a>
+                <img src="image/dish-1.png" alt="">
+                <h3>spicy chicken</h3>
+                <div class=" stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>৳20</span>
+                <a href="#" class="btn">add to cart</a>
+
+            </div>
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class=" fas fa-eye"></a>
+                <img src="image/dish-2.png" alt="">
+                <h3>spicy chicken</h3>
+                <div class=" stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>৳20</span>
+                <a href="#" class="btn">add to cart</a>
+
+            </div>
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class=" fas fa-eye"></a>
+                <img src="image/dish-3.png" alt="">
+                <h3>spicy chicken</h3>
+                <div class=" stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>৳20</span>
+                <a href="#" class="btn">add to cart</a>
+
+            </div>
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class=" fas fa-eye"></a>
+                <img src="image/dish-4.png" alt="">
+                <h3>spicy chicken</h3>
+                <div class=" stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>৳20</span>
+                <a href="#" class="btn">add to cart</a>
+
+            </div>
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class=" fas fa-eye"></a>
+                <img src="image/dish-5.png" alt="">
+                <h3>spicy chicken</h3>
+                <div class=" stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>৳20</span>
+                <a href="#" class="btn">add to cart</a>
+
+            </div>
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class=" fas fa-eye"></a>
+                <img src="image/dish-6.png" alt="">
+                <h3>spicy chicken</h3>
+                <div class=" stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>৳20</span>
+                <a href="#" class="btn">add to cart</a>
+
+            </div>
+
+
+        </div>
+
+    </section>
+    <!-- dishes section end -->
+
+    <!-- menu section starts -->
+    <section class="menu" id="menu">
+        <h3 class="sub-heading">our menu</h3>
+        <h1 class="heading">special menu</h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="image/menu-1.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class=" stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>spicy chicken</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+
+                    <span class="price">৳20</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="image/menu-2.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class=" stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>spicy chicken</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+
+                    <span class="price">৳20</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="image/menu-3.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class=" stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>spicy chicken</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+
+                    <span class="price">৳20</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="image/menu-4.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class=" stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>spicy chicken</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+
+                    <span class="price">৳20</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="image/menu-5.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class=" stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>spicy chicken</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+
+                    <span class="price">৳20</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="image/menu-6.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class=" stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>spicy chicken</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+
+                    <span class="price">৳20</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="image/menu-7.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class=" stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>spicy chicken</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+
+                    <span class="price">৳20</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="image/menu-8.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class=" stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>spicy chicken</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+
+                    <span class="price">৳20</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="image/menu-9.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class=" stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>spicy chicken</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+
+                    <span class="price">৳20</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- menu section ends -->
+
+    <!-- review section starts -->
+    <section class="review" id="review">
+
+        <h3 class="sub-heading"> customer's review </h3>
+        <h1 class="heading"> what they say </h1>
+        <div class="swiper-container review-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="image/pic-1.png" alt="">
+                        <div class="user-info">
+                            <h3>john deo</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.</p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="image/pic-2.png" alt="">
+                        <div class="user-info">
+                            <h3>john deo</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.</p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="image/pic-3.png" alt="">
+                        <div class="user-info">
+                            <h3>john deo</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.</p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="image/pic-4.png" alt="">
+                        <div class="user-info">
+                            <h3>john deo</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- review section ends -->
+    <!-- order section starts  -->
+    <section class="order" id="order">
+
+        <h1 class="heading"> order now </h1>
+        <form action="">
+            <div class="inputBox">
+                <div class="input">
+                    <span>Your Name</span>
+                    <input type="text" name="name" placeholder="your name" required>
+                </div>
+                <div class="input">
+                    <span>Your Email</span>
+                    <input type="email" name="email" placeholder="your email" required>
+                </div>
+                <div class="input">
+                    <span>Your Phone</span>
+                    <input type="number" placeholder="your phone" required>
+                </div>
+                <div class="input">
+                    <span>Your Address</span>
+                    <input type="text" placeholder="your address" required>
+                </div>
+                <div class="input">
+                    <span>Your order</span>
+                    <input type="text" placeholder="food name" required>
+                </div>
+                <div class="input">
+                    <span>food price</span>
+                    <input type="number" placeholder="food price" required>
+                </div>
+                <div class="input">
+                    <span>food quantity</span>
+                    <input type="number" placeholder="food quantity" required>
+                </div>
+                <div class="input">
+                    <span>total amount</span>
+                    <input type="number" placeholder="total amount">
+                </div>
+                <div class="input">
+                    <span>date and time</span>
+                    <input type="datetime-local" placeholder="date and time" required>
+                </div>
+                <div class="input">
+                    <span>payment method</span>
+                    <select name="payment" id="payment" required>
+                        <option value="">select payment method</option>
+                        <option value="cash">cash</option>
+                        <option value="card">card</option>
+                        <option value="paypal">paypal</option>
+                        <option value="bkash">bkash</option>
+                        
+                    </select>
+                </div>
+                <div class="input">
+                    <span>address</span>
+                    <textarea id="address" name="address" cols="30" rows="10" placeholder="enter address" required></textarea>
+                </div>
+
+                <input type="submit" value="order now" class="btn">
+
+
+            </div>
+        </form>
+
+    </section>
+    <!-- order section ends -->
+
+
+    <!-- about section starts -->
+    <section class="about" id="about">
+        <h3 class="sub-heading">About us</h3>
+        <h1 class="heading">Our Story</h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="image/about-img.png" alt="">
+            </div>
+
+            <div class="content">
+                <h3>Best food in our Restaurant</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                <div class="icons-container">
+                    <div class="icons">
+                        <i class="fas fa-shipping-fast"></i>
+                        <span>free delivery.</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-dollar-sign"></i>
+                        <span>easy payment.</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-headset"></i>
+                        <span>24/7 support.</span>
+
+                    </div>
+                    <a href="#" class="btn">read more</a>
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- about section ends -->
+
+
+
+    <!-- footer section starts -->
+
+    <footer>
+
+        <div class="container display-fixed">
+            <div class="row">
+                <div class="col-4">
+                    <h4> Customer Care</h4>
+                    <a href="/">help center</a>
+                    <br>
+                    <a href="/">how to buy</a>
+                    <br>
+                    <a href="/">Return & Refund</a>
+                    <br>
+                    <a href="/">Contact us</a>
+                    <a href="/">Terms & condition</a>
+                </div>
+
+                <div class="col-4">
+                    <h5>Earn with &</h5>
+                    <a href="/">& University</a>
+                    <br>
+                    <a href="/">Sell on Baraz</a>
+                    <br>
+                    <a href="/">Get code</a>
+                    <br>
+                    <a href="/">Join Baraz Afilation</a>
+                </div>
+                <div class="col-2">
+                    <h5>&</h5>
+                    <a href="/">About &</a>
+                    <br><a href="/">Digital payment</a>
+                    <br><a href="/">career</a>
+                    <br><a href="/">& bolg</a>
+                    <br><a href="/">amar baraz</a>
+                    <br><a href="/">d-mart</a>
+                </div>
+                <div class="col-2">
+                    <br><br>
+                    <br><a href="/">privasy policy</a>
+                    <br><a href="/">& app</a>
+                    <br><a href="/">& Exclusive</a>
+                    <br><a href="/">delivary</a>
+                    <br>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="credit">copyright @ 2022 by <span>mr.web designer</span></div>
+    </footer>
+    <!-- footer section ends -->
+
+    <!-- loader part -->
+    <div class="loader-container">
+        <img src="image/loader.gif" alt="">
+
+    </div>
+
+
+
+    <!-- import script.js -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
